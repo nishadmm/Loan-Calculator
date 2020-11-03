@@ -147,7 +147,7 @@ input{
 
   #results .input-beginner{
     font-size: 0.6rem;
-    padding-top: 17px;
+    padding-top: 18px;
     padding-bottom: 12px;
   }
 
@@ -162,6 +162,8 @@ input{
 
   .result-input{
     width: 30%;
+    border-right:  1px solid #6d6969;
+    border-bottom:  1px solid #6d6969;
   }
 
   .pl{
