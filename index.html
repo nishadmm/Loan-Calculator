@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Loan Calculator</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="box bg-light">
+      <div class="form-box">
+        <h1 class="main-title">Loan calculator</h1>
+        <!-- Form -->
+        <form id="form">
+          <div>
+            <span class="input-beginner">$</span>
+            <input type="number" id="amount" placeholder="Loan Amount ">
+          </div>
+          <div>
+            <span class="input-beginner">%</span>
+            <input type="number" id="interest" placeholder="Interest ">
+          </div>
+          <div>
+            <input type="number" class="input-without-beginner" id="year" placeholder="Years To Repay">
+          </div>
+          <div>
+            <input type="submit" value="Calculate" id="submit-btn" class="btn input-without-beginner">
+          </div>
+        </form>
+      </div>
+      <!-- Loading Image -->
+      <div id="loading">
+        <img src="./img/loading.gif" alt="Loading">
+      </div>
+      <!-- Results -->
+      <div id="results">
+        <h1 class="main-title">Results</h1>
+        <div>
+          <span class="input-beginner">Monthly Payment</span>
+          <input type="number" id="monthly-payment" class="result-input" disabled>
+        </div>
+        <div>
+          <span class="input-beginner result-name">Total Payment</span>
+          <input type="number" name="" id="total-payment" class="result-input" disabled>
+        </div>
+        <div>
+          <span class="input-beginner result-name">Total Interest;</span>
+          <input type="number" name="" id="total-interest" class="result-input" disabled>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <h5 class="footer-content">Created By &copy; Nishad</h5>
+    </footer>
+  </div>
+  <!-- js File -->
+  <script src="app.js"></script>
+</body>
+
+</html>
