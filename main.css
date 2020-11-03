@@ -177,9 +177,3 @@ input{
   }
 }
 
-@media (max-height : 280px){
-  .result-input{
-    width: 30%;
-  }
-}
-
