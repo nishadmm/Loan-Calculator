@@ -151,12 +151,17 @@ input{
     padding-bottom: 12px;
   }
 
+  .result-box{
+    position: relative;
+    left: -30px;
+  }
+
   input{
     width: 77%;
   }
 
   .result-input{
-    width: 17%;
+    width: 30%;
   }
 
   .pl{
