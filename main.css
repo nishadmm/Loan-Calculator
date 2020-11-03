@@ -147,13 +147,12 @@ input{
   }
 
   #results .input-beginner{
+    position: relative;
     font-size: 0.6rem;
-    padding-top: 18px;
-    padding-bottom: 12px;
-    width: 50%;
-  }
-  .result-input{
-    font-size: 0.9rem;
+    font-weight: bolder;
+    color: black;
+    padding: 18px 2px 11px 2px;
+    top: 2px;
   }
 
   .result-box{
@@ -168,9 +167,10 @@ input{
   }
 
   .result-input{
-    width: 50%;
+    width: 40%;
     border-right:  2px solid #6d6969;
     border-bottom:  2px solid #6d6969;
+    column-rule: #000000;
   }
 
   .pl{
