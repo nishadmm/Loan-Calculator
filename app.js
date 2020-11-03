@@ -33,9 +33,9 @@ function calculateResult() {
 
   // Result
   if (isFinite(monthly)) {
-    monthlyPayment.value = monthly.toFixed(2);
-    totalPayment.value = (monthly * calculatedPayments).toFixed(2);
-    totalInterest.value = ((monthly * calculatedPayments) - principal).toFixed(2);
+    monthlyPayment.value = monthly.toFixed(1);
+    totalPayment.value = (monthly * calculatedPayments).toFixed(1);
+    totalInterest.value = ((monthly * calculatedPayments) - principal).toFixed(1);
 
     // Show Results
     document.getElementById('results').style.display = 'block';
