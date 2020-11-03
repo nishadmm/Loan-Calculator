@@ -150,6 +150,9 @@ input{
     padding-top: 18px;
     padding-bottom: 12px;
   }
+  .result-input{
+    font-size: 0.6rem;
+  }
 
   .result-box{
     position: relative;
