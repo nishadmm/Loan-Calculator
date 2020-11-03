@@ -128,7 +128,7 @@ input{
   padding: 10px;
 }
 
-/* media query */
+/* Lessthan 500px width */
 @media (max-width: 500px){
 
   .main-title{
@@ -175,6 +175,11 @@ input{
   .Error-box{
     font-size: 0.8rem;
   }
-  
+}
+
+@media (max-height : 580px){
+  .result-input{
+    width: 30%;
+  }
 }
 
