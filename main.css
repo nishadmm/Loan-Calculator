@@ -147,12 +147,10 @@ input{
   }
 
   #results .input-beginner{
-    position: relative;
     font-size: 0.6rem;
     font-weight: bolder;
     color: black;
     padding: 18px 2px 11px 2px;
-    top: 1px;
   }
 
   .result-box{
