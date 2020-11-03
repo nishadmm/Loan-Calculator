@@ -100,7 +100,7 @@ input{
   color: #333333;
 }
 
-.result-name{
+.pl{
   padding-left: 2.3rem;
 }
 
@@ -145,15 +145,21 @@ input{
     height: 230px;
   }
 
+  #results .input-beginner{
+    font-size: 0.6rem;
+    padding-top: 17px;
+    padding-bottom: 12px;
+  }
+
   input{
     width: 77%;
   }
 
   .result-input{
-    width: 27%;
+    width: 17%;
   }
 
-  .result-name{
+  .pl{
     padding-left: 2.1rem;
   }
 
