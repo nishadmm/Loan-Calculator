@@ -12,7 +12,6 @@ document.getElementById('form').addEventListener('submit', function (e) {
 
 // Calculate Results
 function calculateResult() {
-  console.log('Calculating...');
 
   // UI VARS
   const amount = document.getElementById('amount');
@@ -24,7 +23,7 @@ function calculateResult() {
 
   // Values
   const principal = parseFloat(amount.value);
-  const calculatedInterest = parseFloat(interest.value) / 100 / 12;
+  const calculatedInterest = (parseFloat(interest.value) / 100 / 12);
   const calculatedPayments = parseFloat(years.value) * 12;
 
   // compute monthly payement
